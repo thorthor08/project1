@@ -5,4 +5,4 @@ st.text_input("hello")
 if st.button("lonch"):
     st.success("yahooo!")
 if st.button("dddddd"):
-    sr.warning("Wtf")
+    st.warning("Wtf")
