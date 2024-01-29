@@ -1,8 +1,11 @@
 import streamlit as st
 
-st.title("apple")
-st.text_input("hello")
-if st.button("lonch"):
-    st.success("yahooo!")
-if st.button("dddddd"):
-    st.warning("Wtf")
+# Title of the main page
+st.title("Main Page")
+
+# Sidebar with a slider
+st.sidebar.title("Sidebar")
+slider_value = st.sidebar.slider("Select a value", 0, 100)
+
+# Displaying the slider value in the main page
+st.write(f"You selected: {slider_value}")
