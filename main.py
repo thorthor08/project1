@@ -2,5 +2,7 @@ import streamlit as st
 
 st.title("apple")
 st.text_input("hello")
-st.button("lonch")
-st.button("dddddd")
+if st.button("lonch"):
+    st.success("yahooo!")
+if st.button("dddddd"):
+    sr.warning("Wtf")
